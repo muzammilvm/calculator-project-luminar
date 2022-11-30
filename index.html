@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    
+    <link type="text/css" href="Calculator.css" rel="stylesheet">
+    <script src="script.js"></script>
+   
+</head>
+<body class="body">
+   
+    <div class="maindiv">
+        
+        <div class="screen">
+            <input type="text" class="screen" id="scr">
+
+        </div>
+        
+       
+
+         
+        <button class="button" style="color: white; font-size: 30px; margin-left: .35cm;" onclick="allclear()">c
+
+        </button>
+
+        
+           
+
+        <table>
+            
+            <tr><button class="numbutton" onclick="displayValue('1')">1</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('2')">2</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('3')">3</button></tr>
+            <tr><button class="button" onclick="displayValue('/')">/</button></tr>
+
+
+            <tr><button class="numbutton" onclick="displayValue('4')">4</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('5')">5</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('6')">6</button></tr>
+            <tr><button class="button" onclick="displayValue('*')">*</button></tr>
+
+            <tr><button class="numbutton" onclick="displayValue('7')">7</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('8')">8</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('9')">9</button></tr>
+            <tr><button class="button" onclick="displayValue('-')">-</button></tr>
+
+            <tr><button class="numbutton" onclick="displayValue('0')">0</button></tr>
+            <tr><button class="numbutton" onclick="displayValue('.')">.</button></tr>
+            <tr><button class="numbutton" onclick="evaluateNum()">=</button></tr>
+            <tr><button class="button" onclick="displayValue('+')">+</button></tr>
+
+            <tr><button class="numbutton" onclick="backspace()">Del</button></tr>
+        
+
+            
+            
+        </table>
+ 
+ 
+    </div>
+    </div>
+
+
+      
+    
+</body>
+<script src="calculator.js"></script>
+</html>
